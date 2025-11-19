@@ -139,4 +139,4 @@ Este é o repositório oficial do PI3.
 O projeto anterior (desktop – Swing) permanece no repositório:
 
 🔗 [link_do_PI2_aqui]
-(link)
+(https://github.com/Carlao-Jc3/Farmacia-Prevelum.git)
