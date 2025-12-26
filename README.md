@@ -37,10 +37,9 @@ Incluir testes básicos no método main().
 O projeto segue uma estrutura limpa, com módulos separados:
 
 src/
- ├── model/          # Classes de modelo (entidades)
+ ├── model/          # Classes de modelo 
  ├── service/        # Regras de negócio
- ├── repository/     # Persistência de dados (se aplicável)
- ├── controller/     # Camada intermediária (opcional)
+ ├── repository/     # Persistência de dados
  └── utils/          # Classes auxiliares
 
 
@@ -58,7 +57,7 @@ entendimento por parte do professor
 
 ## 🔧 Tecnologias Utilizadas
 
-Java 8+
+JDK 17
 
 NetBeans
 
