@@ -37,9 +37,13 @@ Incluir testes básicos no método main().
 O projeto segue uma estrutura limpa, com módulos separados:
 
 src/
- ├── model/          # Classes de modelo 
+
+ ├── model/           # Classes de modelo
+ 
  ├── service/        # Regras de negócio
+ 
  ├── repository/     # Persistência de dados
+ 
  └── utils/          # Classes auxiliares
 
 
