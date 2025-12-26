@@ -1,10 +1,10 @@
 package util;
 
-public class GeradorId {
+public class GeradorID {
 
     private static int contador = 1;
 
-    private GeradorId() {}
+    private GeradorID() {}
 
     public static int gerar() {
         return contador++;
