@@ -1,13 +1,11 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
 package service;
 
-/**
- *
- * @author Carlos Eduardo
- */
+import models.Usuario;
+
 public class LoginService {
-    
+
+    public boolean autenticar(Usuario usuario, String senha) {
+        if (usuario == null) return false;
+        return usuario.getSenha().equals(senha);
+    }
 }
