@@ -1,4 +1,4 @@
-package com.mycompany.prevelumweb;
+package com.mycompany.prevelumweb.service;
 
 import models.Produto;
 

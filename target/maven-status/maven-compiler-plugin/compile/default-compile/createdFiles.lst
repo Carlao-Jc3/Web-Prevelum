@@ -3,7 +3,6 @@ service\ClienteService.class
 repository\ConexaoBD.class
 service\Vlidador.class
 repository\GerenciadorDados.class
-service\ProdutoService.class
 service\SessaoUsuario.class
 util\GeradorID.class
 util\ValidadorCPF.class
@@ -15,6 +14,7 @@ models\Venda.class
 repository\ProdutoRepository.class
 models\Logins.class
 repository\ClienteRepository.class
+com\mycompany\prevelumweb\ProdutoService.class
 models\Produto.class
 models\Cliente.class
 service\LoginService.class
