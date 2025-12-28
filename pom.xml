@@ -10,6 +10,7 @@
     <artifactId>PrevelumWEB</artifactId>
     <version>1.0-SNAPSHOT</version>
     <packaging>jar</packaging>
+<<<<<<< HEAD
     <dependencies>
         <dependency>
             <groupId>org.junit.jupiter</groupId>
@@ -30,6 +31,9 @@
             <scope>test</scope>
         </dependency>
     </dependencies>
+=======
+
+>>>>>>> a40bb819135d4dd77b23cb74b8e70df226a8d1cb
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <maven.compiler.release>17</maven.compiler.release>
