@@ -21,6 +21,20 @@ public class ProdutoServiceTest {
         });
     }
     
+    @Test
+    public void deveLancarExcecaoQuandoEstoqueForInsuficiente() {
+        ProdutoService service = new ProdutoService();
+
+        Produto produto = new Produto();
+        produto.setNome("Paracetamol");
+        produto.setPreco(5.0);
+        produto.setEstoque(3);
+
+        assertThrows(IllegalArgumentException.class, () -> {
+            service.baixarEstoque(produto, 5);
+        });
+    }
+    
     public ProdutoServiceTest() {
     }
 }

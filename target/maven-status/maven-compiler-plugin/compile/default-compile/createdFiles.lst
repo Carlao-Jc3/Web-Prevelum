@@ -14,7 +14,7 @@ models\Venda.class
 repository\ProdutoRepository.class
 models\Logins.class
 repository\ClienteRepository.class
-com\mycompany\prevelumweb\ProdutoService.class
 models\Produto.class
 models\Cliente.class
+com\mycompany\prevelumweb\service\ProdutoService.class
 service\LoginService.class
