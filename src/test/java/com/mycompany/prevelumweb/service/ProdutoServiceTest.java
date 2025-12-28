@@ -6,7 +6,7 @@ import org.junit.jupiter.api.Test;
 import static org.junit.jupiter.api.Assertions.assertThrows;
 
 public class ProdutoServiceTest {
-    
+
     @Test
     public void deveLancarExcecaoQuandoPrecoForNegativo() {
         ProdutoService service = new ProdutoService();
@@ -20,7 +20,7 @@ public class ProdutoServiceTest {
             service.validarProduto(produto);
         });
     }
-    
+
     @Test
     public void deveLancarExcecaoQuandoEstoqueForInsuficiente() {
         ProdutoService service = new ProdutoService();
@@ -34,7 +34,21 @@ public class ProdutoServiceTest {
             service.baixarEstoque(produto, 5);
         });
     }
-    
+
+    @Test
+    public void deveLancarExcecaoQuandoNomeForVazio() {
+        ProdutoService service = new ProdutoService();
+
+        Produto produto = new Produto();
+        produto.setNome(""); // nome inválido
+        produto.setPreco(10.0);
+        produto.setEstoque(5);
+
+        assertThrows(IllegalArgumentException.class, () -> {
+            service.validarProduto(produto);
+        });
+    }
+
     public ProdutoServiceTest() {
     }
 }
