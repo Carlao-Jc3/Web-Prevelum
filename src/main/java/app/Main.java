@@ -8,7 +8,7 @@ import repository.ClienteRepository;
 import repository.ProdutoRepository;
 import repository.VendaRepository;
 import service.ClienteService;
-import service.ProdutoService;
+import com.mycompany.prevelumweb.ProdutoService;
 import service.VendaService;
 import util.GeradorID;
 
