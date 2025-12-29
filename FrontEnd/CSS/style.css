@@ -60,3 +60,60 @@ body {
     width: 60%;
     background-color: #e5e5e5;
 }
+/* Layout geral */
+.container {
+    display: flex;
+    height: 100vh;
+}
+
+/* Menu lateral */
+.sidebar {
+    width: 25%;
+    background-color: #bfbfbf;
+    padding: 40px;
+}
+
+.sidebar h1 {
+    color: white;
+    margin-bottom: 30px;
+}
+
+.sidebar button {
+    display: block;
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 15px;
+    border: none;
+    border-radius: 6px;
+    background-color: #e0e0e0;
+    cursor: pointer;
+    font-size: 15px;
+}
+
+.sidebar button:hover {
+    background-color: #d0d0d0;
+}
+
+/* Conteúdo principal */
+.content {
+    width: 75%;
+    background-color: #e5e5e5;
+    padding: 40px;
+}
+
+.content h2 {
+    margin-bottom: 30px;
+}
+
+.content label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.content input {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 6px;
+    margin-bottom: 20px;
+}
