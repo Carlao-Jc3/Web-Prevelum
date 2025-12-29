@@ -1,9 +1,62 @@
-/*
-Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
-Click nbfs://nbhost/SystemFileSystem/Templates/Other/CascadeStyleSheet.css to edit this template
-*/
-/* 
-    Created on : 29 de dez. de 2025, 20:02:03
-    Author     : Carlos Eduardo
-*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
 
+body {
+    height: 100vh;
+}
+
+.login-container {
+    display: flex;
+    height: 100vh;
+}
+
+/* Lado esquerdo */
+.login-left {
+    width: 40%;
+    background-color: #bfbfbf;
+    padding: 60px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.login-left h1 {
+    font-size: 36px;
+    color: white;
+    margin-bottom: 40px;
+}
+
+.login-left label {
+    color: white;
+    margin-bottom: 5px;
+}
+
+.login-left input {
+    padding: 10px;
+    border-radius: 8px;
+    border: none;
+    margin-bottom: 20px;
+}
+
+.login-left button {
+    padding: 12px;
+    border: none;
+    border-radius: 8px;
+    background-color: #e0e0e0;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.login-left button:hover {
+    background-color: #d0d0d0;
+}
+
+/* Lado direito */
+.login-right {
+    width: 60%;
+    background-color: #e5e5e5;
+}
