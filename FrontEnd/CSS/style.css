@@ -60,6 +60,7 @@ body {
     width: 60%;
     background-color: #e5e5e5;
 }
+
 /* Layout geral */
 .container {
     display: flex;
@@ -117,3 +118,38 @@ body {
     border-radius: 6px;
     margin-bottom: 20px;
 }
+
+/* Campo de pesquisa */
+.content input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 6px;
+    border: none;
+}
+
+/* Tabela */
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+thead {
+    background-color: #cfcfcf;
+}
+
+th, td {
+    padding: 12px;
+    text-align: left;
+}
+
+tbody tr {
+    background-color: #d9d9d9;
+    border-bottom: 8px solid #e5e5e5;
+    cursor: pointer;
+}
+
+tbody tr.selecionado {
+    background-color: #b0b0b0;
+}
+
