@@ -14,10 +14,10 @@ body {
     height: 100vh;
 }
 
-/* Lado esquerdo */
+/* LADO ESQUERDO */
 .login-left {
     width: 40%;
-    background-color: #bfbfbf;
+    background-color: #cfcfcf;
     padding: 60px;
     display: flex;
     flex-direction: column;
@@ -25,40 +25,45 @@ body {
 }
 
 .login-left h1 {
-    font-size: 36px;
-    color: white;
     margin-bottom: 40px;
 }
 
-.login-left label {
-    color: white;
-    margin-bottom: 5px;
-}
-
-.login-left input {
-    padding: 10px;
-    border-radius: 8px;
-    border: none;
+.form-group {
     margin-bottom: 20px;
 }
 
-.login-left button {
-    padding: 12px;
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.form-group input {
+    width: 100%;
+    padding: 10px;
+    border-radius: 6px;
     border: none;
-    border-radius: 8px;
-    background-color: #e0e0e0;
+}
+
+button {
+    width: 120px;
+    padding: 10px;
+    border: none;
+    border-radius: 6px;
     cursor: pointer;
-    font-size: 16px;
 }
 
-.login-left button:hover {
-    background-color: #d0d0d0;
-}
-
-/* Lado direito */
+/* LADO DIREITO */
 .login-right {
     width: 60%;
-    background-color: #e5e5e5;
+    background-color: #eeeeee;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.login-right img {
+    max-width: 80%;
+    max-height: 80%;
 }
 
 /* Layout geral */
